@@ -125,19 +125,20 @@ Commom elements
 /* buttons */
 
 .site-btn {
-	display: inline-block;
-	border: none;
-	font-size: 14px;
-	font-weight: 600;
-	min-width: 164px;
-	padding: 21px 47px;
-	border-radius: 50px;
-	text-transform: uppercase;
-	background: #10ddb4;
-	color: #161616;
-	line-height: 1;
-	cursor: pointer;
-	text-align: center;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 164px;
+    padding: 21px 47px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #10ddb4;
+    color: #161616;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1200px;
 }
 
 .site-btn:hover {
@@ -406,7 +407,29 @@ Header section
 		width: 100%;
 	}
 }
+/*----
+Certificate
+--*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding:20px;
+    border-radius: 15px;
+    text-align:center;
+    border: 5px solid #100000;
+
+}
+.btn_certificate{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
 /*------------------
    Blog-section
  ---------------------*/
