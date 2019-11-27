@@ -406,7 +406,29 @@ Header section
 		width: 100%;
 	}
 }
+/*----
+Certificate
+--*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding:20px;
+    border-radius: 15px;
+    text-align:center;
+    border: 5px solid #100000;
+
+}
+.btn_certificate{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
 /*------------------
    Blog-section
  ---------------------*/
