@@ -125,19 +125,20 @@ Commom elements
 /* buttons */
 
 .site-btn {
-	display: inline-block;
-	border: none;
-	font-size: 14px;
-	font-weight: 600;
-	min-width: 164px;
-	padding: 21px 47px;
-	border-radius: 50px;
-	text-transform: uppercase;
-	background: #10ddb4;
-	color: #161616;
-	line-height: 1;
-	cursor: pointer;
-	text-align: center;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 164px;
+    padding: 21px 47px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #10ddb4;
+    color: #161616;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1200px;
 }
 
 .site-btn:hover {
